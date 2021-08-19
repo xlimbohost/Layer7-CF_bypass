@@ -1,7 +1,7 @@
-# Layer7-Flooder
-NodeJS web requests flooder, Sends massive amounts of requests to a URL with custom features and bypasses for JS challenges, it uses proxies. MADE FOR TESTING PURPOSES
+# L7-Метод
+Средство обработки веб-запросов NodeJS, отправляет огромное количество запросов на URL-адрес с пользовательскими функциями и обходит проблемы JS, использует прокси-серверы. СДЕЛАНО ДЛЯ ЦЕЛЕЙ ТЕСТИРОВАНИЯ
 
-# The module contains several bypasses of firewalls:
+# Модуль содержит несколько обходов брандмауэров:
 * Cloudflare (JS challenge - UAM, Captcha partly)
 * Stormwall
 * BlazingFast
@@ -9,12 +9,15 @@ NodeJS web requests flooder, Sends massive amounts of requests to a URL with cus
 * PipeGuard
 * DDoS-Guard (JS challenge)
 
-The module can work with CNC controller aswell, But can be run just by a command either.
+Модуль также может работать с контроллером ЧПУ, но также может запускаться просто по команде.
 # Requirements:
-proxies.txt - file that includes proxy list.
-ua.txt - file that contains list of useragents to use.
+proxies.txt - файл, содержащий список прокси-серверов.
+ua.txt - файл, содержащий список агентов пользователя для использования.
 
-# How to use?
-node method.js [URL] [DURATION(SECONDS)] [MODE]
-- Example:
-node method.js https://example.com 120 request 5(theards)
+# Как использовать?
+node method.js [Ссылка] [DURATION(Секунды)] [Тип]
+- Пример:
+node method.js https://example.com 120 request 5(потоки)
+
+
+Перевёл Malinov.CF
